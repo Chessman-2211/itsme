@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giới thiệu bản thân</title>
+  <style>
+    /* Reset margin, padding cho toàn bộ trang */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+    }
+    header {
+      background: #0420bb;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    nav {
+      background: #fff;
+      text-align: center;
+      padding: 15px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #007BFF;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      margin-bottom: 10px;
+      color: #333;
+      border-bottom: 2px solid #007BFF;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 15px auto;
+      object-fit: cover;
+    }
+    ul, ol {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      background: #0420bb;
+      color: #fff;
+      padding: 15px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- Phần Header giới thiệu tên, logo, thông điệp ngắn -->
+  <header>
+    <h1>Xin chào, mình là Phan Quốc Khánh</h1>
+  </header>
+  
+  <!-- Thanh điều hướng giúp chuyển đến các mục nội dung khác nhau -->
+  <nav>
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#kynang">Công việc</a>
+    <a href="#duan">Website</a>
+    <a href="#lienhe">Liên hệ</a>
+  </nav>
+  
+  <div class="container">
+    <!-- Phần Giới thiệu -->
+    <section id="gioithieu">
+      <h2>Giới thiệu</h2>
+      <img src="https://scontent.fhan12-1.fna.fbcdn.net/v/t39.30808-6/488308741_2806626132875015_8229006436486096081_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeH4FSxspVw5K20XMVpq_I96WAE1XMK3IgVYATVcwrciBYHpD70K0zVmuQeSf04HSVqg9FCC2CFeB25_rsO4O6gF&_nc_ohc=eCjN8V0QXLUQ7kNvwHxs-Ut&_nc_oc=AdkWGM6xD3LIGoP_nALwHsqxtfvNKkX1eUpzhfsCsU-IDAl0DBnmyARF5xlXBBRgRTw&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fhan12-1.fna&_nc_gid=HRSj1jS722l46wa71yyqMA&oh=00_AfFOZovCN2w3U87WC3rHNvZO2Vkpwz4ROW7fmeS2UCEAsw&oe=67FC0412" alt="Ảnh của bạn" class="profile-img">
+      <p>Cán bộ bảo hiểm tại Công ty Bảo hiểm BIDV Bắc Trung Bộ.</p>
+    </section>
+    
+    <!-- Phần Kỹ năng -->
+    <section id="kynang">
+      <h2>Công việc</h2>
+      <ul>
+        <li>Tư vấn bảo hiểm</li>
+        <li>Hỗ trợ bồi thường</li>
+        <li>Công nghệ thông tin</li>
+      </ul>
+    </section>
+    
+    <!-- Phần Dự án -->
+    <section id="duan">
+      <h2>Website</h2>
+      <ol>
+        <li><a href="https://mybic.vn/phanquockhanh">Kênh bán hàng trực tuyến</a></li>
+        <li><a href="https://mybic.vn/dang-ky.html?ref=phanquockhanh">Đăng ký tham gia bán hàng cùng mình</a></li>
+        <li><a href="https://www.facebook.com/khanhpq.bic1996">Page mạng xã hội Facebook cá nhân</a></li>
+      </ol>
+    </section>
+    
+    <!-- Phần Liên hệ -->
+    <section id="lienhe">
+      <h2>Liên hệ</h2>
+      <p>Nếu bạn muốn kết nối hay trao đổi thêm, hãy liên hệ cho mình với số điện thoại: +84948079992 hoặc tại: <a href="mailto:email@example.com">khanhpq.bic@bidv.com.vn</a></p>
+    </section>
+  </div>
+  
+  <!-- Phần Footer, thông tin bản quyền -->
+  <footer>
+    <p>&copy; 2025 Khanhpq.bic04. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
